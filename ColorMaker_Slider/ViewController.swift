@@ -15,9 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
-    @IBOutlet weak var redText: UITextField!
-    @IBOutlet weak var greenText: UITextField!
-    @IBOutlet weak var blueText: UITextField!
+    
+    @IBOutlet weak var redText: UILabel!
+    @IBOutlet weak var greenText: UILabel!
+    @IBOutlet weak var blueText: UILabel!
+    
     
     @IBOutlet weak var colorView: UIView!
     
@@ -45,8 +47,8 @@ class ViewController: UIViewController {
         
         colorView.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1)
         
-        
     }
+    
 
 
 }
